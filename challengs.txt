@@ -41,7 +41,7 @@ Task 5 The locate command cont..
 
 Task 6 Find commands
 1. find . -type f -name "*.pdf"
-2. find . -type f -name "*.pdf" -exec cp {} /copy \;
+2. find . -type f -name "*.pdf" > results.txt
 3. find . -mtime -1 -print
 
 Task 7 Text editor
